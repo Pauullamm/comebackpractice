@@ -4,8 +4,8 @@ function randomIntGenerator(min, max) {
 
 // let string_value = random_value + 'px'
 function shiftPos(){
-    let random_value_top = randomIntGenerator(-20, 200)
-    let random_value_left = randomIntGenerator(-20, 200)
+    let random_value_top = randomIntGenerator(1, 200)
+    let random_value_left = randomIntGenerator(1, 400)
     document.getElementById("nobutt").style.top = `${random_value_top.toString()}`+`px`;
     document.getElementById("nobutt").style.left = `${random_value_left.toString()}`+`px`;
 }
