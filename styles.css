@@ -1,3 +1,14 @@
 body {
     background: black;
 }
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 0 100px 0 100px;
+    height: 100px;
+    width: 100px;
+}
